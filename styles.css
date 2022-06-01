@@ -1,0 +1,100 @@
+body
+{
+    background-color: #FFD9C0;
+    text-align: center;
+    font-family: 'Montserrat';
+    overflow-x: hidden;
+}
+
+
+h1
+{
+    font-family: 'Arvo';
+    font-size: 5rem;
+    margin: 8% auto 4%;
+    color: #371B58;
+    text-shadow: 3px 0 #DA0463;
+}
+
+h3
+{
+    font-size: 0.8rem;
+    color: #8f8f8f;
+}
+
+.btn
+{
+    font-size: 5rem;
+    font-family: 'Arvo';
+    border-radius: 15px;
+    margin: 5% 0.5%;
+    padding: 2.5% 3.5% 0;
+    color: #DA0463;
+    text-shadow: 3px 0 #DBEDF3;
+    border: 8px solid #404B69;
+}
+
+.w
+{
+    background-image: url("tom1.png");
+}
+
+.a
+{
+    background-image: url("tom2.png");
+}
+
+.s
+{
+    background-image: url("tom3.png");
+}
+.d
+{
+    background-image: url("tom4.png");
+}
+
+.j
+{
+    background-image: url("snare.png");
+}
+
+.k
+{
+    background-image: url("crash.png");
+}
+
+.l
+{
+    background-image: url("kick.png");
+}
+
+.pressed
+{
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+}
+
+.box
+{
+    margin: 6% 3% 9%;
+}
+
+@media (max-width: 1200px)
+{
+    h1
+    {
+        font-size: 4rem;
+        margin-bottom: 15%;
+    }
+
+    .btn
+    {
+        padding: 2.5% 5% 0;
+    }
+
+    h3
+    {
+        margin: 15% auto 8%;
+    }
+}
+
