@@ -53,7 +53,7 @@ function makeSound(alphaKey)
             var sound6 = new Audio("crash.mp3");
             sound6.play();
             break;
-        case 'k':
+        case 'l':
             var sound7 = new Audio("kick-bass.mp3");
             sound7.play();
             break;
